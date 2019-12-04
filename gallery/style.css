@@ -5,7 +5,7 @@ body{
 
 .gallery-main{
 	width: 100%;
-	min-height: 75vh;
+	min-height: 85vh;
 	background: #4b5662;
 	display: -webkit-flex;
 	display: -moz-flex;
