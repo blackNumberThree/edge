@@ -48,9 +48,7 @@ body{
 	min-height:780px;
 
 }
-.row {
-	min-width: 700px;
-}
+
 
 .row img{
 	margin-top: 10px;
@@ -141,13 +139,9 @@ max-height: 500px;
 
 
 @media (max-width: 2080px) {
-.row img{
 
-	max-height: 400px;
-
-}
 .row {
-	min-width: 45%;
+	min-width: 95%;
 }
 }
 
