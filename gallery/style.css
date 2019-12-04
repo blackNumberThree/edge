@@ -52,7 +52,6 @@ body{
 .row img{
 	margin-top: 10px;
 	max-height: 700px;
-	min-width: 550px;
 	margin-bottom: 10px;
 
 }
@@ -128,15 +127,14 @@ height: 120px;
 }
 @media (max-width: 2500px) {
 .row img{
-
 max-height: 500px;
-
+    min-width: 550px;
 }}
 @media (max-width: 2080px) {
 .row img{
 
 max-height: 400px;
-
+    min-width: 450px;
 
 }
 }
