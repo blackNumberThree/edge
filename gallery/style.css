@@ -140,7 +140,7 @@ max-height: 400px;
 
 }
 .row {
-	min-width: 200px;
+	min-width: 35%;
 }
 }
 @media (max-width: 1201px) {
