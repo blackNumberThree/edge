@@ -50,10 +50,11 @@ body{
 }
 
 .row img{
-margin-top: 1%;
-max-height: 700px;
-min-width: 400px;
-
+	margin-top: 10px;
+	max-height: 700px;
+	min-width: 400px;
+	min-width: -ms-800px;
+	margin-bottom: 10px;
 }
 
 
@@ -129,10 +130,8 @@ height: 120px;
 .row img{
 
 max-height: 500px;
-min-width: 500px;
 
-
-}
+}}
 @media (max-width: 2080px) {
 .row img{
 
