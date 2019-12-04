@@ -1,11 +1,13 @@
 body{
 	line-height: 1;
+	height: 100vh;
+
 }
 
 
 .gallery-main{
 	width: 100%;
-	min-height: 85vh;
+	min-height: 80vh;
 	background: #4b5662;
 	display: -webkit-flex;
 	display: -moz-flex;
