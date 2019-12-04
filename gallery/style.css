@@ -56,7 +56,9 @@ body{
 
 }
 
-
+.row {
+	min-width: 700px;
+}
 
 
 /* Стили Gallery-slide*/
