@@ -52,7 +52,7 @@ body{
 .row img{
 	margin-top: 10px;
 	max-height: 700px;
-	min-width: 700px;
+	min-width: 550px;
 	margin-bottom: 10px;
 
 }
@@ -136,7 +136,6 @@ max-height: 500px;
 .row img{
 
 max-height: 400px;
-min-width: 400px;
 
 
 }
@@ -145,158 +144,6 @@ min-width: 400px;
 .row img{
 
 max-height: 600px;
-min-width: 250px;
-
-
-}
-}body{
-	line-height: 1;
-}
-
-
-.gallery-main{
-	width: 100%;
-	min-height: 75vh;
-	background: #4b5662;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: center;
-
-}
-.view-box{
-		width: 100%;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		justify-content: center;
-		-ms-align-items: center;
-		align-items: center;
-		flex-direction: column;
-
-}
-.item{
-	width:100%;
-
-}
-.page {
-
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	min-height:780px;
-
-}
-
-.row img{
-	margin-top: 10px;
-	max-height: 700px;
-	min-width: 700px;
-	margin-bottom: 10px;
-
-}
-
-
-
-
-/* Стили Gallery-slide*/
-
-.scrool-tools{
-	width: 150px;
-	height: 10px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	margin: 15px 5px; 
-}
- .prev, .next {
- 	cursor: pointer;
-    position: relative;
-	width: 12px;
-	height: 16px;	
-    margin: 0px 8px;
-    padding: 0px;
-}
-.next{
-transform: translateY(3px) rotate(180deg);
-
-}
-.slider-dots {
-    position: relative;
-  	width: 99px;
-	height: 16px;
-    top: 0%;
-    left: 0%;
-    padding-bottom: 5px;
-}
-
-.slider-dots_item{
-    cursor: pointer;
-	width: auto;
-    margin: 0 4px 0px 4px;
-
-	font-size: 18px;
-	line-height: 16px;
-	background: #4b5662;
-	color: #c5d2df;
-
-}
-  .prev:hover,
-.next:hover {
-    color: #6DB744;
-}
-.active,
-.slider-dots_item:hover {
-		color:  white;
-
-		background: #4b5662;
-
-}
-
-.footer_soc-icon {
-  padding: 0px;
-   }
-.footer{
-	width: 100%;
-	padding: 0 1%;
-}
-.logo__img_2{
-height: 120px;
-}
-@media (max-width: 2500px) {
-.row img{
-
-max-height: 500px;
-
-}}
-@media (max-width: 2080px) {
-.row img{
-
-max-height: 400px;
-min-width: 400px;
-
-
-}
-}
-@media (max-width: 1201px) {
-.row img{
-
-max-height: 600px;
-min-width: 250px;
 
 
 }
