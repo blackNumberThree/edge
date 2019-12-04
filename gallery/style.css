@@ -19,7 +19,7 @@ body{
 
 }
 .view-box{
-		width: 98%;
+		width: 100%;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -31,7 +31,10 @@ body{
 		flex-direction: column;
 
 }
+.item{
+	width:100%;
 
+}
 .page {
 
 	display: -webkit-flex;
@@ -48,9 +51,8 @@ body{
 
 .row img{
 margin-top: 1%;
-margin-bottom: 1%;
-max-height: 650px;
-min-width: 600px;
+max-height: 700px;
+min-width: 400px;
 
 }
 
