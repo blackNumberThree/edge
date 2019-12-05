@@ -4,7 +4,12 @@ body{
 
 }
 
-
+a{
+	color: white;
+}
+a:hover{
+	color: #c5d2df;
+}
 .gallery-main{
 	width: 100%;
 	min-height: 80vh;
